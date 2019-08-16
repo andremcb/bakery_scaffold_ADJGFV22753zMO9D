@@ -9,7 +9,7 @@ class TestStripe(unittest.TestCase):
 
     #Check if redirectToCheckout function call is present        
     def test_redirect_to_checkout(self):
-        return True
+        return True ## TRue
         #self.assertNotEqual(self.dom_str, '.redirectToCheckout', 'No stripe redirect call found!')
     
     #Check if successUrl redirects to order_success.html
